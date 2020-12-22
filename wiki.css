@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.titolo{
+    position: relative;
+    margin: 4rem auto 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    width: 320px;
+    display: block;
+}
+
+h1,p{
+    margin: 0;
+}
+
+img{
+    position: absolute;
+    top: 140px;
+    left: 60px;
+}
+
+.container>div{
+    width: 150px;
+    font-size: 18px;
+}
+
+strong{
+    display: block;
+    padding: 5px;
+}
+
+small{
+    color: #54595d;
+}
+
+div>a{
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #36c;
+}
+
+.container{
+    position: relative;
+    margin:  0 auto;
+    width: 550px ;
+    height: 250px;
+}
+
+.sezione-ita{
+    position: absolute;
+    left:60%;
+}
+
+.sezione-es{
+    position: absolute;
+    right: 60%;
+}
+
+.sezione-zh{
+    position: absolute;
+    top: 100%;
+    right: 60%;
+}
+
+.sezione-jp{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}
+
+.sezione-pt{
+    position: absolute;
+    top: 75%;
+    right: 70%;
+}
+
+.sezione-pl{
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+.sezione-en{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+
+.sezione-de{
+    position: absolute;
+    top: 25%;
+    right: 70%;
+}
+.sezione-rs{
+    position: absolute;
+    top: 50%;
+    right: 75%;
+}
+.sezione-fr{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
